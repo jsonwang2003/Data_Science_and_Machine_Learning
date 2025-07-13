@@ -13,7 +13,7 @@ from sklearn.metrics import mean_squared_error, r2_score
 # the data results. Include a screenshot of the Python output. 
 
 # load the data from student_performance.csv
-df = pd.read_csv('student_performance.csv')
+df = pd.read_csv('../student_performance.csv')
 
 # Define the predictor and target variables
 X = df['hours_studied']

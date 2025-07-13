@@ -7,7 +7,7 @@ from sklearn.metrics import mean_squared_error, r2_score
 
 # Load the data from winequality.csv
 # Load the data from the specified CSV file into a pandas DataFrame
-df = pd.read_csv('winequality.csv')
+df = pd.read_csv('../winequality.csv')
 
 # Display the first few rows of the DataFrame to confirm the data is loaded
 print(df.head())
