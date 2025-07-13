@@ -1,6 +1,6 @@
 #Load the data from go_surfing.csv. Load the data from the specified CSV file into a pandas DataFrame 
 import pandas as pd
-df = pd.read_csv('./go_surfing.csv')
+df = pd.read_csv('../go_surfing.csv')
 
 # Display the first few rows of the DataFrame to confirm the data is loaded
 print(df.head())
@@ -50,4 +50,4 @@ plt.show()
 coefficients = pd.DataFrame({'Variable': X_train.columns, 'Coefficient': clf.coef_[0]})
 coefficients = coefficients.sort_values(by='Coefficient', key=abs, ascending=False)
 print("\nMost Predictive Variables:")
-coefficients
+print(coefficients)
